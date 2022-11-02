@@ -17,7 +17,7 @@ package com.java.project.Groceryshop.DTO;
 			product.setQuality(50);
 			
 			ManufacturercompanyDTO Manufacturercompany = new ManufacturercompanyDTO();
-			Manufacturercompany.setCompanyname("Ninja Tech limlited");
+			Manufacturercompany.setCompanyname("Microsoft Tech limlited");
 			Manufacturercompany.setContactno(123456789);
 			Manufacturercompany.setMailid("yuvarajkm1100@gmail.com");
 			
@@ -30,10 +30,10 @@ package com.java.project.Groceryshop.DTO;
 			address.setZip(560066);
 			
 	        GroceryShopDAO shop = new GroceryShopDAO ();
-			String  display  = shop.removeProctByCompanyName("Biscuit","Ninja Tech limlited");
+			String  display  = shop.removeProctByCompanyName("Biscuit","Microsoft Tech limlited");
 			System.out.println(display);
 			
-			ManufacturercompanyDTO  show  = shop.getAllProductByCompanyName("Ninja Tech limlited");
+			ManufacturercompanyDTO  show  = shop.getAllProductByCompanyName("Microsoft Tech limlited");
 			System.out.println(show);
 			
 			ProductDTO  s  = shop.getAllProductBynameofpruduct("Biscuit");
