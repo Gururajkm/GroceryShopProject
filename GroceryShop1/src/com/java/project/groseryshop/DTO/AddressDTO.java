@@ -1,6 +1,6 @@
 package com.java.project.groseryshop.DTO;
 
-public class AddressDTO {
+public class AddressDTO extends groceryshop {
 		
 		private String buildingno;
 		private String area;
