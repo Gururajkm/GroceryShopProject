@@ -41,7 +41,7 @@ package com.java.project.Groceryshop.DTO;
 			
 			shop.showallprodut();
 			
-			int  abc  = shop.totalNumberOfProduct();
+			int  xyz  = shop.totalNumberOfProduct();
 			System.out.println(xyz);
 			
 		}
