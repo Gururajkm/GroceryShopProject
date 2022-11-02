@@ -1,6 +1,6 @@
 package com.java.project.groseryshop.DTO;
 
-public class ProductDTO {
+public class ProductDTO extends groceryshop {
 		private String nameOfproduct;
 		private double Price;
 		private long barcodenumber;
