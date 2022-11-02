@@ -4,7 +4,7 @@ package com.java.project.Groceryshop.DTO;
 
 	import java.util.TreeSet;
 
-	public class TestDTO {
+	public class TestDTO extends groceryshop {
 		public static void main(String[] args) {
 			ProductDTO product = new ProductDTO();
 			product.setNameOfproduct("Biscuit");
