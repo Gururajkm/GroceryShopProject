@@ -16,8 +16,8 @@ public class GroceryShopDAO {
 		
 		
 	}
-       public String removeProctByCompanyName(String nameOfproduct,String companyname) {
-    	for(int i=0; i<list.size(); i++) {
+       public String removeProductByCompanyName(String nameOfproduct,String companyname) {
+    	for(int i=0; i<list.length(); i++) {
     		if(list.equals(companyname));
     		return null;
     			
